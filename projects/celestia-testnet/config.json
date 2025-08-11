@@ -4,14 +4,16 @@
     "name": "0G Galileo",
     "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/0glogo.jpg",
     "banner": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/0gbabbmer.jpg",
-    "description": "",
+    "description": "0G Galileo Testnet Documentation",
     "theme": {
       "primary": "#8b5cf6",
       "secondary": "#ec4899"
-    }
+    },
+    "network": "0G-Galileo-Testnet",
+    "chainId": "16601"
   },
   "metadata": {
-    "updatedAt": "2025-08-11T17:17:06.434Z",
+    "updatedAt": "2025-08-11T17:20:09.481Z",
     "version": "1.0.0"
   }
 }
