@@ -1,0 +1,24 @@
+{
+  "projectSettings": {
+    "id": "story-protocol",
+    "name": "Story Protocol",
+    "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/main/storylogo.png",
+    "banner": "https://raw.githubusercontent.com/coinsspor/coinsspor/main/storybanner.png",
+    "description": "Aeneid Testnet Documentation",
+    "theme": {
+      "primary": "#8b5cf6",
+      "secondary": "#ec4899"
+    }
+  },
+  "endpoints": {
+    "rpc": "https://story-testnet-rpc.coinsspor.com",
+    "api": "https://story-testnet-api.coinsspor.com",
+    "evm": "https://story-testnet-evm.coinsspor.com",
+    "explorer": "https://testnet.storyscan.io"
+  },
+  "resources": {
+    "documentation": "https://docs.story.io",
+    "github": "https://github.com/story-protocol",
+    "discord": "https://discord.gg/story"
+  }
+}
