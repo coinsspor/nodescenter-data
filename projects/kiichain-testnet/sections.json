@@ -1,0 +1,76 @@
+[
+  {
+    "id": "1754944385242",
+    "title": "Endpoints",
+    "icon": "🔌",
+    "type": "copy-text",
+    "items": [
+      {
+        "id": "1754944386865",
+        "label": "RPC",
+        "value": "https://kiichain-testnet-rpc.coinsspor.com/",
+        "description": ""
+      },
+      {
+        "id": "1754944415467",
+        "label": "API",
+        "value": "https://kiichain-testnet-api.coinsspor.com/",
+        "description": ""
+      },
+      {
+        "id": "1754944450314",
+        "label": "EVM-RPC",
+        "value": "https://rpc.dos.sentry.testnet.v3.kiivalidator.com/",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 0
+  },
+  {
+    "id": "1754944523128",
+    "title": "Offical Sources",
+    "icon": "📚",
+    "type": "copy-text",
+    "items": [
+      {
+        "id": "1754944525028",
+        "label": "Docs",
+        "value": "https://docs.kiiglobal.io/docs",
+        "description": ""
+      },
+      {
+        "id": "1754944551580",
+        "label": "Github",
+        "value": "https://github.com/kiichain",
+        "description": ""
+      },
+      {
+        "id": "1754944583287",
+        "label": "Discord",
+        "value": "https://discord.gg/kiichain",
+        "description": ""
+      },
+      {
+        "id": "1754944612560",
+        "label": "Telegram",
+        "value": "https://t.me/KiiChainGlobal",
+        "description": ""
+      },
+      {
+        "id": "1754944630854",
+        "label": "Web Site",
+        "value": "http://www.kiichain.io/",
+        "description": ""
+      },
+      {
+        "id": "1754944651859",
+        "label": "X",
+        "value": "https://x.com/KiiChainio",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 1
+  }
+]
