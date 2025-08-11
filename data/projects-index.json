@@ -1,0 +1,86 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-14T10:00:00Z",
+  "projects": {
+    "mainnet": [],
+    "testnet": [
+      {
+        "id": "story-protocol",
+        "name": "Story Protocol",
+        "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/main/storylogo.png",
+        "status": "active",
+        "network": "testnet",
+        "networkName": "Aeneid Testnet",
+        "description": "Story Protocol Testnet Documentation",
+        "chainId": "1513",
+        "endpoints": {
+          "rpc": "https://story-testnet-rpc.coinsspor.com",
+          "api": "https://story-testnet-api.coinsspor.com",
+          "evm": "https://story-testnet-evm.coinsspor.com",
+          "explorer": "https://testnet.storyscan.io"
+        },
+        "resources": {
+          "documentation": "https://docs.story.io",
+          "github": "https://github.com/story-protocol",
+          "discord": "https://discord.gg/story",
+          "website": "https://story.io"
+        },
+        "metadata": {
+          "createdAt": "2025-01-14T10:00:00Z",
+          "updatedAt": "2025-01-14T10:00:00Z",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "id": "celestia-testnet",
+        "name": "Celestia",
+        "logo": "🌌",
+        "status": "active",
+        "network": "testnet",
+        "networkName": "Mocha Testnet",
+        "description": "Modular blockchain network for data availability",
+        "chainId": "mocha-4",
+        "endpoints": {
+          "rpc": "https://celestia-testnet-rpc.coinsspor.com",
+          "api": "https://celestia-testnet-api.coinsspor.com",
+          "explorer": "https://testnet.mintscan.io/celestia-testnet"
+        },
+        "resources": {
+          "documentation": "https://docs.celestia.org",
+          "github": "https://github.com/celestiaorg",
+          "discord": "https://discord.gg/celestia"
+        },
+        "metadata": {
+          "createdAt": "2025-01-14T10:00:00Z",
+          "updatedAt": "2025-01-14T10:00:00Z",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "id": "osmosis-testnet",
+        "name": "Osmosis",
+        "logo": "🌊",
+        "status": "active",
+        "network": "testnet",
+        "networkName": "Osmo-test-5",
+        "description": "The leading DEX in the Cosmos ecosystem",
+        "chainId": "osmo-test-5",
+        "endpoints": {
+          "rpc": "https://osmosis-testnet-rpc.coinsspor.com",
+          "api": "https://osmosis-testnet-api.coinsspor.com",
+          "explorer": "https://testnet.mintscan.io/osmosis-testnet"
+        },
+        "resources": {
+          "documentation": "https://docs.osmosis.zone",
+          "github": "https://github.com/osmosis-labs",
+          "discord": "https://discord.gg/osmosis"
+        },
+        "metadata": {
+          "createdAt": "2025-01-14T10:00:00Z",
+          "updatedAt": "2025-01-14T10:00:00Z",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  }
+}
