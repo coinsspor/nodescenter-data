@@ -1,0 +1,19 @@
+{
+  "projectSettings": {
+    "id": "kiichain-testnet",
+    "name": "Kiichain",
+    "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/kiichainlogo.jpg",
+    "banner": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/kiichainbanner.png",
+    "description": "Kichain Testnet",
+    "theme": {
+      "primary": "#8b5cf6",
+      "secondary": "#ec4899"
+    },
+    "chainId": "1336",
+    "network": "oro_1336-1"
+  },
+  "metadata": {
+    "updatedAt": "2025-08-11T20:37:58.786Z",
+    "version": "1.0.0"
+  }
+}
