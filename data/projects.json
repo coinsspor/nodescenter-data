@@ -5,24 +5,50 @@
       "name": "Story Protocol",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/main/storylogo.png",
       "status": "active",
-      "network": "Aeneid Testnet",
       "chainId": "1513",
       "description": "Aeneid Testnet Documentation",
       "hasRPC": true,
       "hasAPI": true,
-      "hasDocumentation": "complete"
+      "hasDocumentation": "complete",
+      "networkName": "Aeneid Testnet",
+      "network": "Aeneid Testnet"
     },
     {
       "id": "celestia-testnet",
       "name": "0G Galileo",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/0glogo.jpg",
       "status": "active",
-      "network": "0G-Galileo-Testnet",
       "chainId": "16601",
       "description": "0G Galileo Testnet Documentation",
       "hasRPC": true,
       "hasAPI": true,
-      "hasDocumentation": "complete"
+      "hasDocumentation": "complete",
+      "networkName": "0G-Galileo-Testnet",
+      "network": "0G-Galileo-Testnet"
+    },
+    {
+      "id": "kiichain-testnet",
+      "name": "Kiichain",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/kiichainlogo.jpg",
+      "status": "active",
+      "networkName": " Kiichain Testnet Oro",
+      "description": "Kiichain Testnet Documentation",
+      "chainId": "1336",
+      "hasRPC": true,
+      "hasAPI": true,
+      "hasDocumentation": "complete",
+      "endpoints": {
+        "rpc": "",
+        "api": "",
+        "explorer": ""
+      },
+      "resources": {},
+      "metadata": {
+        "createdAt": "2025-08-11T18:42:08.159Z",
+        "updatedAt": "2025-08-11T18:42:08.159Z",
+        "version": "1.0.0"
+      },
+      "network": " Kiichain Testnet Oro"
     }
   ],
   "mainnet": []
