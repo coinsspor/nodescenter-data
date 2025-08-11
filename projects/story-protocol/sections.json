@@ -48,5 +48,21 @@
     ],
     "isVisible": true,
     "order": 1
+  },
+  {
+    "id": "1754926954307",
+    "title": "Yeni Öğe",
+    "icon": "📡",
+    "type": "links",
+    "items": [
+      {
+        "id": "1754926956389",
+        "label": "site",
+        "value": "http://149.50.116.116:3000/",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 2
   }
 ]
