@@ -14,12 +14,12 @@
     },
     {
       "id": "celestia-testnet",
-      "name": "Celestia",
-      "logo": "🌌",
+      "name": "0G Galileo",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/0glogo.jpg",
       "status": "active",
       "network": "Mocha Testnet",
       "chainId": "mocha-4",
-      "description": "Modular blockchain network",
+      "description": "",
       "hasRPC": true,
       "hasAPI": true,
       "hasDocumentation": "complete"
