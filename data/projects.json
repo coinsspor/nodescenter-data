@@ -7,7 +7,7 @@
       "status": "active",
       "network": "Aeneid Testnet",
       "chainId": "1513",
-      "description": "Story Protocol Testnet",
+      "description": "Aeneid Testnet Documentation",
       "hasRPC": true,
       "hasAPI": true,
       "hasDocumentation": "complete"
