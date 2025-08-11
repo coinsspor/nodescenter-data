@@ -25,30 +25,6 @@
       "hasDocumentation": "complete",
       "networkName": "0G-Galileo-Testnet",
       "network": "0G-Galileo-Testnet"
-    },
-    {
-      "id": "kiichain-testnet",
-      "name": "Kiichain",
-      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/kiichainlogo.jpg",
-      "status": "active",
-      "networkName": " Kiichain Testnet Oro",
-      "description": "Kiichain Testnet Documentation",
-      "chainId": "1336",
-      "hasRPC": true,
-      "hasAPI": true,
-      "hasDocumentation": "complete",
-      "endpoints": {
-        "rpc": "",
-        "api": "",
-        "explorer": ""
-      },
-      "resources": {},
-      "metadata": {
-        "createdAt": "2025-08-11T18:42:08.159Z",
-        "updatedAt": "2025-08-11T18:42:08.159Z",
-        "version": "1.0.0"
-      },
-      "network": " Kiichain Testnet Oro"
     }
   ],
   "mainnet": []
