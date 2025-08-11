@@ -28,11 +28,11 @@
     },
     {
       "id": "kiichain-testnet",
-      "name": "Kichain",
+      "name": "Kiichain",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/kiichainlogo.jpg",
       "status": "active",
       "networkName": "Kiichain Testnet Oro",
-      "description": "Kiichain TEstnet Documention",
+      "description": "Kichain Testnet",
       "chainId": "1336",
       "hasRPC": true,
       "hasAPI": true,
@@ -53,7 +53,7 @@
         "updatedAt": "2025-08-11T19:15:55.286Z",
         "version": "1.0.0"
       },
-      "network": "Kiichain Testnet Oro"
+      "network": "oro_1336-1"
     }
   ],
   "mainnet": []
