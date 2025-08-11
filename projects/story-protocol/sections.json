@@ -50,15 +50,15 @@
     "order": 1
   },
   {
-    "id": "1754926954307",
-    "title": "Yeni Öğe",
-    "icon": "📡",
-    "type": "links",
+    "id": "1754927017037",
+    "title": "dasdasdas",
+    "icon": "🔌",
+    "type": "copy-text",
     "items": [
       {
-        "id": "1754926956389",
-        "label": "site",
-        "value": "http://149.50.116.116:3000/",
+        "id": "1754927018546",
+        "label": "New Itemdsadasd",
+        "value": "Value hereasdasdsadsadasdasd",
         "description": ""
       }
     ],
