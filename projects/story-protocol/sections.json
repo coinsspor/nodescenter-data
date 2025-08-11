@@ -48,5 +48,14 @@
     ],
     "isVisible": true,
     "order": 1
+  },
+  {
+    "id": "1754927224632",
+    "title": "asdasdasd",
+    "icon": "📝",
+    "type": "cards",
+    "items": [],
+    "isVisible": true,
+    "order": 2
   }
 ]
