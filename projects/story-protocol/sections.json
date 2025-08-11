@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "title": "yeni Endpoints",
+    "icon": "🔌",
+    "type": "copy-text",
+    "items": [
+      {
+        "id": "1-1",
+        "label": "RPC",
+        "value": "https://story-testnet-rpc.coinsspor.com"
+      },
+      {
+        "id": "1-2",
+        "label": "API",
+        "value": "https://story-testnet-api.coinsspor.com"
+      },
+      {
+        "id": "1-3",
+        "label": "EVM",
+        "value": "https://story-testnet-evm.coinsspor.com"
+      }
+    ],
+    "isVisible": true,
+    "order": 0
+  },
+  {
+    "id": "2",
+    "title": "Resources kaynaklaaa",
+    "icon": "📚",
+    "type": "links",
+    "items": [
+      {
+        "id": "2-1",
+        "label": "Documentation",
+        "value": "https://docs.story.io"
+      },
+      {
+        "id": "2-2",
+        "label": "GitHub",
+        "value": "https://github.com/story-protocol"
+      },
+      {
+        "id": "2-3",
+        "label": "Discord",
+        "value": "https://discord.gg/story"
+      }
+    ],
+    "isVisible": true,
+    "order": 1
+  }
+]
