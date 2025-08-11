@@ -10,15 +10,8 @@
       "secondary": "#ec4899"
     }
   },
-  "endpoints": {
-    "rpc": "https://story-testnet-rpc.coinsspor.com",
-    "api": "https://story-testnet-api.coinsspor.com",
-    "evm": "https://story-testnet-evm.coinsspor.com",
-    "explorer": "https://testnet.storyscan.io"
-  },
-  "resources": {
-    "documentation": "https://docs.story.io",
-    "github": "https://github.com/story-protocol",
-    "discord": "https://discord.gg/story"
+  "metadata": {
+    "updatedAt": "2025-08-11T15:41:06.366Z",
+    "version": "1.0.0"
   }
 }
