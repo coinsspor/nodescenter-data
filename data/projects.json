@@ -17,9 +17,9 @@
       "name": "0G Galileo",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/0glogo.jpg",
       "status": "active",
-      "network": "Mocha Testnet",
-      "chainId": "mocha-4",
-      "description": "",
+      "network": "0G-Galileo-Testnet",
+      "chainId": "16601",
+      "description": "0G Galileo Testnet Documentation",
       "hasRPC": true,
       "hasAPI": true,
       "hasDocumentation": "complete"
