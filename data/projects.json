@@ -38,11 +38,16 @@
       "hasAPI": true,
       "hasDocumentation": "complete",
       "endpoints": {
-        "rpc": "",
-        "api": "",
-        "explorer": ""
+        "rpc": "https://kiichain-testnet-rpc.coinsspor.com/",
+        "api": "https://kiichain-testnet-api.coinsspor.com/",
+        "explorer": "https://coinsspor.com/kiichain/staking"
       },
-      "resources": {},
+      "resources": {
+        "documentation": "https://docs.kiiglobal.io/docs/",
+        "github": "https://github.com/kiichain",
+        "website": "https://kiichain.io/",
+        "discord": "https://discord.com/invite/kiichain"
+      },
       "metadata": {
         "createdAt": "2025-08-11T19:15:55.286Z",
         "updatedAt": "2025-08-11T19:15:55.286Z",
