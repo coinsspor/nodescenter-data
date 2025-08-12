@@ -60,6 +60,48 @@
         "version": "1.0.0"
       },
       "network": "oro_1336-1"
+    },
+    {
+      "id": "warden-testnet",
+      "name": "warden-chiado",
+      "logo": "https://raw.githubusercontent.com/MictoNode/warden-protocol/refs/heads/main/warden_logo.jpg",
+      "status": "active",
+      "networkName": "",
+      "description": "warden-chiado-testnet",
+      "chainId": "",
+      "hasRPC": true,
+      "hasAPI": true,
+      "hasDocumentation": "complete",
+      "endpoints": {
+        "rpc": "https://warden-chiado-api.coinsspor.com",
+        "api": "https://warden-chiado-api.coinsspor.com",
+        "evm": "",
+        "grpc": "",
+        "explorer": "https://coinsspor.com/warden-chiado",
+        "websocket": ""
+      },
+      "resources": {
+        "documentation": "",
+        "github": "",
+        "discord": "",
+        "twitter": "",
+        "website": "",
+        "telegram": "",
+        "medium": ""
+      },
+      "technical": {
+        "consensusType": "",
+        "blockTime": "",
+        "finality": "",
+        "validators": 0
+      },
+      "metadata": {
+        "createdAt": "2025-08-12T16:29:16.957Z",
+        "updatedAt": "2025-08-12T16:29:16.957Z",
+        "version": "1.0.0",
+        "author": "Admin"
+      },
+      "network": "testnet"
     }
   ],
   "mainnet": []
