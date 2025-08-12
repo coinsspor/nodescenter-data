@@ -27,6 +27,9 @@
       "hasAPI": true,
       "hasDocumentation": "complete",
       "networkName": "0G-Galileo-Testnet",
+      "endpoints": {
+        "explorer": "https://0ggalileoexplorer.coinsspor.com/"
+      },
       "network": "0G-Galileo-Testnet"
     },
     {
