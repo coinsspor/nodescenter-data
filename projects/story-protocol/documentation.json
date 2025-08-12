@@ -1,0 +1,153 @@
+{
+  "documentation": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "icon": "🚀",
+      "type": "section",
+      "children": [
+        {
+          "id": "welcome",
+          "title": "Welcome",
+          "type": "page",
+          "content": "# Welcome to Story Protocol Aeneid Testnet Documentation\n\nThis guide provides a comprehensive walkthrough for setting up your Story Protocol Aeneid Testnet node. Whether you're a beginner or an advanced user, you'll find detailed instructions for installation, configuration, validator setup, and maintenance.\n\n## Quick Start\n- Follow the [System Requirements](#-system-requirements) section to prepare your server.\n- Install dependencies and build the node as outlined in the [Installation](#-installation) section.\n- Configure and start your node using the [Configuration](#-configuration) and [Start Services](#-start-services) sections.\n- Create a validator once synced as described in the [Validator Creation](#-validator-creation) section."
+        },
+        {
+          "id": "system-requirements",
+          "title": "System Requirements",
+          "type": "page",
+          "content": "## System Requirements\n\n### Minimum Hardware Requirements\n| Component | Minimum | Recommended |\n|-----------|---------|-------------|\n| **CPU** | 4 cores | 8 cores |\n| **RAM** | 16 GB | 32 GB |\n| **Storage** | 500 GB NVMe SSD | 1 TB NVMe SSD |\n| **OS** | Ubuntu 22.04 LTS | Ubuntu 22.04 LTS |\n| **Network** | 100 Mbps | 1 Gbps |\n\n### Port Configuration (Dynamic based on your prefix)\n| Service | Port Formula | Example (prefix=26) | Example (prefix=56) |\n|---------|--------------|---------------------|---------------------|\n| Story P2P | `${STORY_PORT}656` | 26656 | 56656 |\n| Story RPC | `${STORY_PORT}657` | 26657 | 56657 |\n| Story API | `${STORY_PORT}317` | 26317 | 56317 |"
+        },
+        {
+          "id": "installation",
+          "title": "Installation",
+          "type": "page",
+          "content": "## Installation\n\n### Step 1: System Preparation\n```bash\nsudo apt update && sudo apt upgrade -y\nsudo apt install -y curl git wget htop tmux build-essential jq make lz4 gcc unzip aria2\n```\n\n### Step 2: Install Go 1.22.11\n```bash\ncd $HOME\nVER=\"1.22.11\"\nwget \"https://golang.org/dl/go$VER.linux-amd64.tar.gz\"\nsudo rm -rf /usr/local/go\nsudo tar -C /usr/local -xzf \"go$VER.linux-amd64.tar.gz\"\nrm \"go$VER.linux-amd64.tar.gz\"\necho \"export PATH=$PATH:/usr/local/go/bin:~/go/bin\" >> ~/.bash_profile\nsource ~/.bash_profile\ngo version\n```",
+          "codeBlocks": [
+            {
+              "id": "install-system",
+              "language": "bash",
+              "code": "sudo apt update && sudo apt upgrade -y\nsudo apt install -y curl git wget htop tmux build-essential jq make lz4 gcc unzip aria2",
+              "filename": "system-prep.sh",
+              "copyable": true
+            },
+            {
+              "id": "install-go",
+              "language": "bash",
+              "code": "cd $HOME\nVER=\"1.22.11\"\nwget \"https://golang.org/dl/go$VER.linux-amd64.tar.gz\"\nsudo rm -rf /usr/local/go\nsudo tar -C /usr/local -xzf \"go$VER.linux-amd64.tar.gz\"\nrm \"go$VER.linux-amd64.tar.gz\"\necho \"export PATH=$PATH:/usr/local/go/bin:~/go/bin\" >> ~/.bash_profile\nsource ~/.bash_profile\ngo version",
+              "filename": "install-go.sh",
+              "copyable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "configuration",
+      "title": "Configuration",
+      "icon": "⚙️",
+      "type": "section",
+      "children": [
+        {
+          "id": "cosmovisor-setup",
+          "title": "Cosmovisor Setup",
+          "type": "page",
+          "content": "## Cosmovisor Setup\n\n### Step 1: Install Cosmovisor\n```bash\ngo install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.6.0\ncosmovisor version\n```",
+          "codeBlocks": [
+            {
+              "id": "install-cosmovisor",
+              "language": "bash",
+              "code": "go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@v1.6.0\ncosmovisor version",
+              "filename": "install-cosmovisor.sh",
+              "copyable": true
+            }
+          ]
+        },
+        {
+          "id": "port-configuration",
+          "title": "Port Configuration",
+          "type": "page",
+          "content": "## Port Configuration\n```bash\nsed -i.bak -e \"s%:1317%:${STORY_PORT}317%g; s%:8551%:${STORY_PORT}551%g\" $HOME/.story/story/config/story.toml\nsed -i.bak -e \"s%:26658%:${STORY_PORT}658%g; s%:26657%:${STORY_PORT}657%g; s%:26656%:${STORY_PORT}656%g; s%^external_address = \"\"%external_address = \\\"$(wget -qO- eth0.me):${STORY_PORT}656\\\"%; s%:26660%:${STORY_PORT}660%g\" $HOME/.story/story/config/config.toml\n```",
+          "codeBlocks": [
+            {
+              "id": "configure-ports",
+              "language": "bash",
+              "code": "sed -i.bak -e \"s%:1317%:${STORY_PORT}317%g; s%:8551%:${STORY_PORT}551%g\" $HOME/.story/story/config/story.toml\nsed -i.bak -e \"s%:26658%:${STORY_PORT}658%g; s%:26657%:${STORY_PORT}657%g; s%:26656%:${STORY_PORT}656%g; s%^external_address = \"\"%external_address = \\\"$(wget -qO- eth0.me):${STORY_PORT}656\\\"%; s%:26660%:${STORY_PORT}660%g\" $HOME/.story/story/config/config.toml",
+              "filename": "configure-ports.sh",
+              "copyable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "Operations",
+      "icon": "🔧",
+      "type": "section",
+      "children": [
+        {
+          "id": "start-services",
+          "title": "Start Services",
+          "type": "page",
+          "content": "## Start Services\n```bash\nsudo systemctl daemon-reload\nsudo systemctl enable story-geth story\nsudo systemctl start story-geth\nsleep 5\nsudo systemctl start story\n```",
+          "codeBlocks": [
+            {
+              "id": "start-services",
+              "language": "bash",
+              "code": "sudo systemctl daemon-reload\nsudo systemctl enable story-geth story\nsudo systemctl start story-geth\nsleep 5\nsudo systemctl start story",
+              "filename": "start-services.sh",
+              "copyable": true
+            }
+          ]
+        },
+        {
+          "id": "validator-creation",
+          "title": "Validator Creation",
+          "type": "page",
+          "content": "## Validator Creation\n\n### Step 3: Create Validator\n```bash\nstory validator create --stake 1024000000000000000000 --moniker \"$STORY_MONIKER\" --chain-id 1315 --unlocked=false --rpc \"https://aeneid.storyrpc.io\"\n```",
+          "codeBlocks": [
+            {
+              "id": "create-validator",
+              "language": "bash",
+              "code": "story validator create --stake 1024000000000000000000 --moniker \"$STORY_MONIKER\" --chain-id 1315 --unlocked=false --rpc \"https://aeneid.storyrpc.io\"",
+              "filename": "create-validator.sh",
+              "copyable": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "Maintenance",
+      "icon": "🔄",
+      "type": "section",
+      "children": [
+        {
+          "id": "upgrades-maintenance",
+          "title": "Upgrades & Maintenance",
+          "type": "page",
+          "content": "## Upgrades & Maintenance\n\n### Method 1: Build for Cosmovisor Auto-Upgrade\n```bash\nLATEST_VERSION=$(curl -s https://api.github.com/repos/piplabs/story/releases/latest | jq -r '.tag_name')\nmkdir -p $HOME/.story/story/cosmovisor/upgrades/$LATEST_VERSION/bin\ncp ./story $HOME/.story/story/cosmovisor/upgrades/$LATEST_VERSION/bin/\necho \"{\\\"name\\\":\\\"$LATEST_VERSION\\\",\\\"time\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"height\\\":$UPGRADE_HEIGHT}\" > $HOME/.story/story/cosmovisor/upgrades/$LATEST_VERSION/upgrade-info.json\n```",
+          "codeBlocks": [
+            {
+              "id": "cosmovisor-upgrade",
+              "language": "bash",
+              "code": "LATEST_VERSION=$(curl -s https://api.github.com/repos/piplabs/story/releases/latest | jq -r '.tag_name')\nmkdir -p $HOME/.story/story/cosmovisor/upgrades/$LATEST_VERSION/bin\ncp ./story $HOME/.story/story/cosmovisor/upgrades/$LATEST_VERSION/bin/\necho \"{\\\"name\\\":\\\"$LATEST_VERSION\\\",\\\"time\\\":\\\"0001-01-01T00:00:00Z\\\",\\\"height\\\":$UPGRADE_HEIGHT}\" > $HOME/.story/story/cosmovisor/upgrades/$LATEST_VERSION/upgrade-info.json",
+              "filename": "cosmovisor-upgrade.sh",
+              "copyable": true
+            }
+          ]
+        },
+        {
+          "id": "troubleshooting",
+          "title": "Troubleshooting",
+          "type": "page",
+          "content": "## Troubleshooting\n\n### Node Not Syncing\n- Check peers: `curl localhost:${STORY_PORT}657/net_info | jq '.result.n_peers'`\n- Restart services: `sudo systemctl restart story story-geth`"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-08-13T00:00:00Z",
+  "projectId": "story-protocol"
+}
