@@ -11,10 +11,13 @@
       "hasAPI": true,
       "hasDocumentation": "complete",
       "networkName": "Aeneid Testnet",
+      "endpoints": {
+        "explorer": "https://storyaeneidminiexplorer.coinsspor.com/"
+      },
       "network": "Aeneid Testnet"
     },
     {
-      "id": "0g-testnet",
+      "id": "celestia-testnet",
       "name": "0G Galileo",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/0glogo.jpg",
       "status": "active",
@@ -31,7 +34,7 @@
       "name": "Kiichain",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/kiichainlogo.jpg",
       "status": "active",
-      "networkName": "Kiichain Testnet Oro",
+      "networkName": "oro_1336-1",
       "description": "Kichain Testnet",
       "chainId": "1336",
       "hasRPC": true,
