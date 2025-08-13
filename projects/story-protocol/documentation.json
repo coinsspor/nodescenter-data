@@ -25,7 +25,7 @@
           "title": "Competition Resources",
           "icon": "🏅",
           "type": "page",
-          "content": "# 🏅 Competition Resources\n\n## 🏆 Story Protocol Validator Competition\n\n| Resource | Link | Description |\n|----------|------|-------------|\n| **📊 Round 1 Results** | [storytable.coinsspor.com](https://storytable.coinsspor.com) | Complete Round 1 Stats |\n| **📊 Round 2 Tracking** | [storytable.coinsspor.com/round2](https://storytable.coinsspor.com/round2) | Current Round Stats |\n\n## 📅 Competition Details\n\n- **Competition Period:** June 30, 2025 - July 28, 2025\n- **🎯 Active Validators:** 80+\n- **📈 Average Uptime:** 99.9%\n- **🏆 Prize Pool:** TBA\n\n## 🎖️ Performance Metrics\n\n### Key Metrics Tracked\n- **Uptime Percentage**\n- **Block Production Rate**\n- **Missed Blocks Count**\n- **Response Time**\n- **Network Participation**\n\n### Scoring System\n- Uptime: 40% weight\n- Block Production: 30% weight\n- Network Participation: 20% weight\n- Community Contribution: 10% weight\n\n## 📊 How to Track Your Performance\n\n1. Visit the tracking dashboard\n2. Search for your validator moniker\n3. Monitor your metrics daily\n4. Optimize based on performance data"
+          "content": "# 🏅 Competition Resources\n\n## 🏆 Story Protocol Validator Competition\n\n| Resource | Link | Description |\n|----------|------|-------------|\n| **📊 Round 1 Results** | [storytable.coinsspor.com](https://storytable.coinsspor.com) | Complete Round 1 Stats |\n| **📊 Round 2 Tracking** | [storytable.coinsspor.com/round2](https://storytable2.coinsspor.com/) | Current Round Stats |\n\n## 📅 Competition Details\n\n- **Competition Period:** June 30, 2025 - July 28, 2025\n- **🎯 Active Validators:** 80+\n- **📈 Average Uptime:** 99.9%\n- **🏆 Prize Pool:** TBA\n\n## 🎖️ Performance Metrics\n\n### Key Metrics Tracked\n- **Uptime Percentage**\n- **Block Production Rate**\n- **Missed Blocks Count**\n- **Response Time**\n- **Network Participation**\n\n### Scoring System\n- Uptime: 40% weight\n- Block Production: 30% weight\n- Network Participation: 20% weight\n- Community Contribution: 10% weight\n\n## 📊 How to Track Your Performance\n\n1. Visit the tracking dashboard\n2. Search for your validator moniker\n3. Monitor your metrics daily\n4. Optimize based on performance data"
         }
       ]
     },
@@ -71,8 +71,7 @@
           "type": "page",
           "content": "# 🐹 Install Go 1.22.11\n\n## Download and Install Go\n\n```bash\ncd $HOME\nVER=\"1.22.11\"\nwget \"https://golang.org/dl/go$VER.linux-amd64.tar.gz\"\nsudo rm -rf /usr/local/go\nsudo tar -C /usr/local -xzf \"go$VER.linux-amd64.tar.gz\"\nrm \"go$VER.linux-amd64.tar.gz\"\n```\n\n## Configure Environment\n\n```bash\n# Add Go to PATH\necho \"export PATH=$PATH:/usr/local/go/bin:~/go/bin\" >> ~/.bash_profile\nsource ~/.bash_profile\n```\n\n## Verify Installation\n\n```bash\n# Check Go version\ngo version\n```\n\nExpected output:\n```\ngo version go1.22.11 linux/amd64\n```\n\n## 🔍 Troubleshooting\n\n### If `go version` doesn't work:\n\n1. **Check if Go is installed:**\n```bash\nls -la /usr/local/go/\n```\n\n2. **Manually add to current session:**\n```bash\nexport PATH=$PATH:/usr/local/go/bin:~/go/bin\n```\n\n3. **Check PATH variable:**\n```bash\necho $PATH\n```\n\n## 📝 Why Go 1.22.11?\n\n- Required version for Story Protocol\n- Latest stable version in 1.22.x series\n- Compatible with all Story dependencies\n- Includes performance improvements"
         },
-
-{
+        {
           "id": "set-variables",
           "title": "Set Variables",
           "icon": "⚙️",
@@ -137,7 +136,7 @@
           "type": "page",
           "content": "# 🌐 Configure Seeds and Peers\n\n## Set Seeds and Persistent Peers\n\n```bash\nSEEDS=\"944e8889ecd7c13623ef1081aae4555d6f525041@b1-b.odyssey-devnet.storyrpc.io:26656\"\nPEERS=\"3b1aaa03f996d619cb2f4230ebace45686ab3b8a@34.140.167.127:26656,36ca8b119bf5851cd1e37060af914cb07dec24f9@34.79.40.193:26656,2a28bd1a6ecb0a1d8ceade599b311d202447d635@193.122.141.78:26656\"\n\nsed -i -e \"/^\\[p2p\\]/,/^\\[/{s/^[[:space:]]*seeds *=.*/seeds = \\\"$SEEDS\\\"/}\" \\\n       -e \"/^\\[p2p\\]/,/^\\[/{s/^[[:space:]]*persistent_peers *=.*/persistent_peers = \\\"$PEERS\\\"/}\" $HOME/.story/story/config/config.toml\n```\n\n## 🍀 Fresh Peers Discovery (Recommended)\n\n```bash\n# Get fresh peers from Coinsspor RPC\nURL=\"https://story-aeneid-testnet-rpc.coinsspor.com/net_info\"\n\necho \"🔍 Discovering fresh peers from Coinsspor RPC...\"\nresponse=$(curl -s $URL)\n\n# Extract active peers with valid IP addresses\nPEERS=$(echo $response | jq -r '.result.peers[] | select(.remote_ip | test(\"^[0-9]{1,3}(\\\\.[0-9]{1,3}){3}$\")) | \"\\(.node_info.id)@\\(.remote_ip):\" + (.node_info.listen_addr | capture(\":(?<port>[0-9]+)$\").port)' | paste -sd \",\" -)\n\nif [ -n \"$PEERS\" ]; then\n    echo \"✅ Found fresh peers: $PEERS\"\n    echo \"🔧 Updating config.toml with fresh peers...\"\n    \n    # Update persistent_peers in config.toml\n    sed -i 's|^persistent_peers *=.*|persistent_peers = \"'$PEERS'\"|' $HOME/.story/story/config/config.toml\n    \n    echo \"✅ Fresh peers configured successfully!\"\nelse\n    echo \"⚠️  No fresh peers found, using default peers\"\nfi\n```"
         },
-{
+        {
           "id": "configure-settings",
           "title": "Configure Settings",
           "icon": "🔧",
@@ -197,7 +196,7 @@
         }
       ]
     },
-{
+    {
       "id": "monitoring",
       "title": "Monitoring & Sync",
       "icon": "📊",
@@ -282,7 +281,7 @@
           "type": "page",
           "content": "# 📊 Node Information\n\n## Get Node ID\n\n```bash\n# Get node ID\ncurl localhost:${STORY_PORT}657/status | jq '.result.node_info.id'\n```\n\n## Get Validator Address\n\n```bash\n# Get validator address\nstory status 2>&1 | jq '.ValidatorInfo.address'\n```\n\n## Check Validator Status\n\n```bash\n# Check validator status\ncurl localhost:${STORY_PORT}657/validators | jq '.result.validators[] | select(.address==\"YOUR_VALIDATOR_ADDRESS\")'\n```\n\n## Check Node Sync Info\n\n```bash\n# Check node sync info\ncurl localhost:${STORY_PORT}657/status | jq '.result.sync_info'\n```\n\n## Check Connected Peers\n\n```bash\n# Check number of connected peers\ncurl -s localhost:${STORY_PORT}657/net_info | jq '.result.n_peers'\n\n# Check peer details\ncurl -s localhost:${STORY_PORT}657/net_info | jq -r '.result.peers[] | \"\\(.node_info.id)@\\(.remote_ip):\\(.node_info.listen_addr | capture(\":(?<port>[0-9]+)$\").port) - \\(.node_info.moniker)\"'\n```\n\n## Node Version\n\n```bash\n# Check story version\nstory version\n\n# Check geth version\nstory-geth version\n\n# Check cosmovisor version\ncosmovisor version\n```"
         },
-{
+        {
           "id": "wallet-operations",
           "title": "Wallet Operations",
           "icon": "💰",
@@ -450,7 +449,7 @@
       ]
     }
   ],
-  "lastUpdated": "2025-01-14T00:00:00Z",
+  "lastUpdated": "2025-08-13T15:43:31.209Z",
   "projectId": "story-protocol",
   "version": "1.0.0"
 }
