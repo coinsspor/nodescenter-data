@@ -50,15 +50,21 @@
     "order": 1
   },
   {
-    "id": "1755123401082",
-    "title": "SnapShot",
-    "icon": "💾",
+    "id": "1755123564263",
+    "title": "Story Protocol Validator Competition",
+    "icon": "🎯",
     "type": "custom",
     "items": [
       {
-        "id": "1755123403405",
-        "label": "web site",
-        "value": "https://snaps.coinsspor.com/",
+        "id": "1755123572235",
+        "label": "Round-1",
+        "value": "https://storytable.coinsspor.com",
+        "description": ""
+      },
+      {
+        "id": "1755123594416",
+        "label": "Round-2",
+        "value": "https://storytable2.coinsspor.com",
         "description": ""
       }
     ],
