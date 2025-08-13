@@ -104,5 +104,48 @@
       "network": "testnet"
     }
   ],
-  "mainnet": []
+  "mainnet": [
+    {
+      "id": "tac-chain-mainet",
+      "name": "TAC Chain",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/taclogo.png",
+      "status": "active",
+      "networkName": "TAC Chain",
+      "description": "Tac Chain Mainnet",
+      "chainId": "tacchain_239-1",
+      "hasRPC": true,
+      "hasAPI": true,
+      "hasDocumentation": "complete",
+      "endpoints": {
+        "rpc": "https://rpc.ankr.com/http/tac_cosmos/",
+        "api": "https://rpc.ankr.com/http/tac_tendermint",
+        "evm": "",
+        "grpc": "",
+        "explorer": "https://coinsspor.com/tacchain-mainnet",
+        "websocket": ""
+      },
+      "resources": {
+        "documentation": "",
+        "github": "",
+        "discord": "",
+        "twitter": "",
+        "website": "",
+        "telegram": "",
+        "medium": ""
+      },
+      "technical": {
+        "consensusType": "",
+        "blockTime": "",
+        "finality": "",
+        "validators": 0
+      },
+      "metadata": {
+        "createdAt": "2025-08-13T20:22:29.800Z",
+        "updatedAt": "2025-08-13T20:22:29.800Z",
+        "version": "1.0.0",
+        "author": "Admin"
+      },
+      "network": "TAC Chain"
+    }
+  ]
 }
