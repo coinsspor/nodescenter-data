@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1755120568172",
+    "title": "Endpoints",
+    "icon": "🌐",
+    "type": "copy-text",
+    "items": [
+      {
+        "id": "1755120569622",
+        "label": "RPC",
+        "value": "https://warden-chiado-rpc.coinsspor.com/",
+        "description": ""
+      },
+      {
+        "id": "1755120594779",
+        "label": "API",
+        "value": "https://warden-chiado-api.coinsspor.com/",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 0
+  },
+  {
+    "id": "1755120634631",
+    "title": "Offical",
+    "icon": "📚",
+    "type": "copy-text",
+    "items": [
+      {
+        "id": "1755120644365",
+        "label": "Web Site",
+        "value": "https://wardenprotocol.org/",
+        "description": ""
+      },
+      {
+        "id": "1755120663688",
+        "label": "Telegram",
+        "value": "https://t.me/wardenprotocol",
+        "description": ""
+      },
+      {
+        "id": "1755120685491",
+        "label": "Discord",
+        "value": "https://discord.gg/wardenprotocol",
+        "description": ""
+      },
+      {
+        "id": "1755120717101",
+        "label": "X",
+        "value": "https://x.com/wardenprotocol",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 1
+  }
+]
