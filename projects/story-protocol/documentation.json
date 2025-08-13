@@ -449,7 +449,17 @@
       ]
     }
   ],
-  "lastUpdated": "2025-08-13T15:43:31.209Z",
+  "projectInfo": {
+    "name": "Story Protocol",
+    "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/main/storylogo.png",
+    "banner": "https://raw.githubusercontent.com/coinsspor/coinsspor/main/storybanner.png",
+    "description": "Aeneid Testnet Documentation",
+    "theme": {
+      "primary": "#10b981",
+      "secondary": "#8b5cf6"
+    }
+  },
+  "lastUpdated": "2025-08-13T17:53:43.373Z",
   "projectId": "story-protocol",
   "version": "1.0.0"
 }
