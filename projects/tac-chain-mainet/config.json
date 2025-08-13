@@ -1,0 +1,19 @@
+{
+  "projectSettings": {
+    "id": "tac-chain-mainet",
+    "name": "TAC Chain",
+    "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/taclogo.png",
+    "banner": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tacchainbanner.jpg",
+    "description": "TAC Chain Mainnet",
+    "theme": {
+      "primary": "#8b5cf6",
+      "secondary": "#ec4899"
+    },
+    "chainId": "tacchain_239-1",
+    "network": "TAC Chain"
+  },
+  "metadata": {
+    "updatedAt": "2025-08-13T20:30:03.780Z",
+    "version": "1.0.0"
+  }
+}
