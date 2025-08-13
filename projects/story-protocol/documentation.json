@@ -21,9 +21,24 @@
       "icon": "📄",
       "type": "page",
       "content": "# New Page\n\nAdd your content here...\n\n## Section\n\nWrite your documentation using **Markdown**.\n\n### Features\n- Lists\n- **Bold text**\n- *Italic text*\n- `Code snippets`\n- Links: [Example](https://example.com)\n\n```javascript\n// Code blocks with syntax highlighting\nconst example = \"Hello World\";\nconsole.log(example);\n```"
+    },
+    {
+      "id": "section-1755090389655",
+      "title": "New Section",
+      "icon": "",
+      "type": "section",
+      "children": [
+        {
+          "id": "page-1755090410882",
+          "title": "bakalım",
+          "icon": "📄",
+          "type": "page",
+          "content": "aloooooo"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2025-08-13T13:05:04.578Z",
+  "lastUpdated": "2025-08-13T13:07:04.985Z",
   "projectId": "story-protocol",
   "version": "1.0.0"
 }
