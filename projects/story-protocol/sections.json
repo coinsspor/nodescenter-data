@@ -50,19 +50,19 @@
     "order": 1
   },
   {
-    "id": "1755123564263",
+    "id": "1755123825404",
     "title": "Story Protocol Validator Competition",
-    "icon": "🎯",
-    "type": "custom",
+    "icon": "🚀",
+    "type": "links",
     "items": [
       {
-        "id": "1755123572235",
+        "id": "1755123827721",
         "label": "Round-1",
         "value": "https://storytable.coinsspor.com",
         "description": ""
       },
       {
-        "id": "1755123594416",
+        "id": "1755123873265",
         "label": "Round-2",
         "value": "https://storytable2.coinsspor.com",
         "description": ""
@@ -70,5 +70,21 @@
     ],
     "isVisible": true,
     "order": 2
+  },
+  {
+    "id": "1755123912768",
+    "title": "SnapShot",
+    "icon": "💾",
+    "type": "links",
+    "items": [
+      {
+        "id": "1755123914813",
+        "label": "Snap",
+        "value": "https://snaps.coinsspor.com",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 3
   }
 ]
