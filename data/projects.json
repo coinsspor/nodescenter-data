@@ -63,11 +63,11 @@
     },
     {
       "id": "warden-testnet",
-      "name": "warden-chiado",
-      "logo": "https://raw.githubusercontent.com/MictoNode/warden-protocol/refs/heads/main/warden_logo.jpg",
+      "name": "Warden Protocol",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/warden_logo.jpg",
       "status": "active",
       "networkName": "testnet",
-      "description": "warden-chiado-testnet",
+      "description": "",
       "chainId": "",
       "hasRPC": true,
       "hasAPI": true,
@@ -101,7 +101,7 @@
         "version": "1.0.0",
         "author": "Admin"
       },
-      "network": "testnet"
+      "network": "warden-chiado"
     }
   ],
   "mainnet": [
