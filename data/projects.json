@@ -26,7 +26,7 @@
       "hasRPC": true,
       "hasAPI": true,
       "hasDocumentation": "complete",
-      "networkName": "0G-Galileo-Testnet",
+      "networkName": "0g Galileo Testnet",
       "endpoints": {
         "explorer": "https://0ggalileoexplorer.coinsspor.com/"
       },
@@ -63,11 +63,11 @@
     },
     {
       "id": "warden-testnet",
-      "name": "Warden Protocol",
+      "name": "warden-chiado",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/warden_logo.jpg",
       "status": "active",
       "networkName": "testnet",
-      "description": "",
+      "description": "warden-chiado-testnet",
       "chainId": "",
       "hasRPC": true,
       "hasAPI": true,
@@ -101,7 +101,7 @@
         "version": "1.0.0",
         "author": "Admin"
       },
-      "network": "warden-chiado"
+      "network": "testnet"
     }
   ],
   "mainnet": [
