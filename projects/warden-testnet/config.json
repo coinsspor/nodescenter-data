@@ -1,0 +1,18 @@
+{
+  "projectSettings": {
+    "id": "warden-testnet",
+    "name": "Warden Protocol",
+    "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/warden_logo.jpg",
+    "banner": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/wardenbanner.png",
+    "description": "",
+    "theme": {
+      "primary": "#8b5cf6",
+      "secondary": "#ec4899"
+    },
+    "network": "warden-chiado"
+  },
+  "metadata": {
+    "updatedAt": "2025-08-13T21:32:13.077Z",
+    "version": "1.0.0"
+  }
+}
