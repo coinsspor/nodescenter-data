@@ -1,0 +1,64 @@
+[
+  {
+    "id": "1755116753221",
+    "title": "Endpoints",
+    "icon": "🌐",
+    "type": "copy-text",
+    "items": [
+      {
+        "id": "1755116755382",
+        "label": "RPC",
+        "value": "https://rpc.ankr.com/http/tac_cosmos",
+        "description": ""
+      },
+      {
+        "id": "1755116801347",
+        "label": "API",
+        "value": "https://rpc.ankr.com/http/tac_tendermint",
+        "description": ""
+      },
+      {
+        "id": "1755116822242",
+        "label": "EVM RPC",
+        "value": "https://rpc.ankr.com/tac",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 0
+  },
+  {
+    "id": "1755116890570",
+    "title": "Official",
+    "icon": "📚",
+    "type": "copy-text",
+    "items": [
+      {
+        "id": "1755116892911",
+        "label": "Web Site",
+        "value": "https://tac.build/",
+        "description": ""
+      },
+      {
+        "id": "1755116913938",
+        "label": "Telegram",
+        "value": "https://t.me/TACbuild",
+        "description": ""
+      },
+      {
+        "id": "1755116951639",
+        "label": "Discord",
+        "value": "https://discord.com/invite/tacbuild",
+        "description": ""
+      },
+      {
+        "id": "1755116970922",
+        "label": "Linkedln",
+        "value": "https://www.linkedin.com/company/tacbuild/",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 1
+  }
+]
