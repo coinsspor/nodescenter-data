@@ -111,7 +111,7 @@
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/taclogo.png",
       "status": "active",
       "networkName": "TAC Chain",
-      "description": "Tac Chain Mainnet",
+      "description": "TAC Chain Mainnet",
       "chainId": "tacchain_239-1",
       "hasRPC": true,
       "hasAPI": true,
