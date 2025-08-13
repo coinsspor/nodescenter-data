@@ -25,7 +25,7 @@
           "title": "Competition Resources",
           "icon": "🏅",
           "type": "page",
-          "content": "# 🏅 Competition Resources\n\n## 🏆 Story Protocol Validator Competition\n\n| Resource | Link | Description |\n|----------|------|-------------|\n| **📊 Round 1 Results** | [storytable.coinsspor.com](https://storytable.coinsspor.com) | Complete Round 1 Stats |\n| **📊 Round 2 Tracking** | [storytable.coinsspor.com/round2](https://storytable2.coinsspor.com/) | Current Round Stats |\n\n## 📅 Competition Details\n\n- **Competition Period:** June 30, 2025 - July 28, 2025\n- **🎯 Active Validators:** 80+\n- **📈 Average Uptime:** 99.9%\n- **🏆 Prize Pool:** TBA\n\n## 🎖️ Performance Metrics\n\n### Key Metrics Tracked\n- **Uptime Percentage**\n- **Block Production Rate**\n- **Missed Blocks Count**\n- **Response Time**\n- **Network Participation**\n\n### Scoring System\n- Uptime: 40% weight\n- Block Production: 30% weight\n- Network Participation: 20% weight\n- Community Contribution: 10% weight\n\n## 📊 How to Track Your Performance\n\n1. Visit the tracking dashboard\n2. Search for your validator moniker\n3. Monitor your metrics daily\n4. Optimize based on performance data"
+          "content": "# 🏅 Competition Resources\n\n## 🏆 Story Protocol Validator Competition\n\n| Resource | Link | Description |\n|----------|------|-------------|\n| **📊 Round 1 Results** | [storytable.coinsspor.com](https://storytable.coinsspor.com) | Complete Round 1 Stats |\n| **📊 Round 2 Tracking** | [storytable2.coinsspor.com/](https://storytable2.coinsspor.com/) | Current Round Stats |\n\n## 📅 Competition Details\n\n- **Competition Period:** June 30, 2025 - July 28, 2025\n- **🎯 Active Validators:** 80+\n- **📈 Average Uptime:** 99.9%\n- **🏆 Prize Pool:** TBA\n\n## 🎖️ Performance Metrics\n\n### Key Metrics Tracked\n- **Uptime Percentage**\n- **Block Production Rate**\n- **Missed Blocks Count**\n- **Response Time**\n- **Network Participation**\n\n### Scoring System\n- Uptime: 40% weight\n- Block Production: 30% weight\n- Network Participation: 20% weight\n- Community Contribution: 10% weight\n\n## 📊 How to Track Your Performance\n\n1. Visit the tracking dashboard\n2. Search for your validator moniker\n3. Monitor your metrics daily\n4. Optimize based on performance data"
         }
       ]
     },
@@ -459,7 +459,7 @@
       "secondary": "#8b5cf6"
     }
   },
-  "lastUpdated": "2025-08-13T18:07:37.442Z",
+  "lastUpdated": "2025-08-13T18:14:02.518Z",
   "projectId": "story-protocol",
   "version": "1.0.0"
 }
