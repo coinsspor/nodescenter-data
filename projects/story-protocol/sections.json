@@ -48,5 +48,21 @@
     ],
     "isVisible": true,
     "order": 1
+  },
+  {
+    "id": "1755123401082",
+    "title": "SnapShot",
+    "icon": "💾",
+    "type": "custom",
+    "items": [
+      {
+        "id": "1755123403405",
+        "label": "web site",
+        "value": "https://snaps.coinsspor.com/",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 2
   }
 ]
