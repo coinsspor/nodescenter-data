@@ -5,7 +5,7 @@
       "name": "Story Protocol",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/main/storylogo.png",
       "status": "active",
-      "chainId": "1513",
+      "chainId": "1315",
       "description": "Aeneid Testnet Documentation",
       "hasRPC": true,
       "hasAPI": true,
@@ -14,7 +14,7 @@
       "endpoints": {
         "explorer": "https://storyaeneidminiexplorer.coinsspor.com/"
       },
-      "network": "Aeneid Testnet"
+      "network": "Story Aeneid Testnet"
     },
     {
       "id": "celestia-testnet",
