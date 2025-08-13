@@ -1,1 +1,22 @@
-
+{
+  "documentation": [
+    {
+      "id": "section-1755095876621",
+      "title": "New Section",
+      "icon": "🖥️",
+      "type": "section",
+      "children": [
+        {
+          "id": "page-1755096758305",
+          "title": "New Page",
+          "icon": "📄",
+          "type": "page",
+          "content": "# New Page\n\nAdd your content here...test123"
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2025-08-13T14:52:51.975Z",
+  "projectId": "story-protocol",
+  "version": "1.0.0"
+}
