@@ -66,7 +66,7 @@
       "name": "warden-chiado",
       "logo": "https://raw.githubusercontent.com/MictoNode/warden-protocol/refs/heads/main/warden_logo.jpg",
       "status": "active",
-      "networkName": "",
+      "networkName": "testnet",
       "description": "warden-chiado-testnet",
       "chainId": "",
       "hasRPC": true,
