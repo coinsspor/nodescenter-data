@@ -1,0 +1,18 @@
+{
+  "projectSettings": {
+    "id": "empeiria-testnet",
+    "name": "Empeiria",
+    "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/empeiria.webp",
+    "banner": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/Empeiriabanner.jpeg",
+    "description": "Empeiria Testnet",
+    "theme": {
+      "primary": "#8b5cf6",
+      "secondary": "#ec4899"
+    },
+    "network": "Empeiria Testnet"
+  },
+  "metadata": {
+    "updatedAt": "2025-08-15T09:08:53.631Z",
+    "version": "1.0.0"
+  }
+}
