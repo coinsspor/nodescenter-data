@@ -10,7 +10,7 @@
       "hasRPC": true,
       "hasAPI": true,
       "hasDocumentation": "complete",
-      "networkName": "Aeneid Testnet",
+      "networkName": "Story Aeneid Testnet",
       "endpoints": {
         "explorer": "https://storyaeneidminiexplorer.coinsspor.com/"
       },
@@ -102,6 +102,48 @@
         "author": "Admin"
       },
       "network": "testnet"
+    },
+    {
+      "id": "empeiria-testnet",
+      "name": "Empeiria",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/empeiria.webp",
+      "status": "active",
+      "networkName": "Empeiria Testnet",
+      "description": "Empeiria Testnet",
+      "chainId": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/empeiria.webp",
+      "hasRPC": true,
+      "hasAPI": true,
+      "hasDocumentation": "complete",
+      "endpoints": {
+        "rpc": "https://empeiria-testnet-rpc.coinsspor.com/",
+        "api": "https://empeiria-testnet-api.coinsspor.com/",
+        "evm": "",
+        "grpc": "",
+        "explorer": "https://coinsspor.com/empe/staking",
+        "websocket": ""
+      },
+      "resources": {
+        "documentation": "",
+        "github": "",
+        "discord": "",
+        "twitter": "",
+        "website": "",
+        "telegram": "",
+        "medium": ""
+      },
+      "technical": {
+        "consensusType": "",
+        "blockTime": "",
+        "finality": "",
+        "validators": 0
+      },
+      "metadata": {
+        "createdAt": "2025-08-15T08:54:14.839Z",
+        "updatedAt": "2025-08-15T08:54:14.839Z",
+        "version": "1.0.0",
+        "author": "Admin"
+      },
+      "network": "Empeiria Testnet"
     }
   ],
   "mainnet": [
