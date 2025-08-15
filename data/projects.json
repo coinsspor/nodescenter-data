@@ -110,7 +110,7 @@
       "status": "active",
       "networkName": "Empeiria Testnet",
       "description": "Empeiria Testnet",
-      "chainId": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/empeiria.webp",
+      "chainId": "",
       "hasRPC": true,
       "hasAPI": true,
       "hasDocumentation": "complete",
