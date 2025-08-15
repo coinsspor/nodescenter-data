@@ -1,0 +1,64 @@
+[
+  {
+    "id": "1755248675588",
+    "title": "Endpoints",
+    "icon": "🌐",
+    "type": "copy-text",
+    "items": [
+      {
+        "id": "1755248677012",
+        "label": "RPC",
+        "value": "https://empeiria-testnet-rpc.coinsspor.com/",
+        "description": ""
+      },
+      {
+        "id": "1755248746880",
+        "label": "API",
+        "value": "https://empeiria-testnet-api.coinsspor.com/",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 0
+  },
+  {
+    "id": "1755248784060",
+    "title": "Official",
+    "icon": "📚",
+    "type": "links",
+    "items": [
+      {
+        "id": "1755248804778",
+        "label": "WebSite",
+        "value": "https://empe.io/",
+        "description": ""
+      },
+      {
+        "id": "1755248824919",
+        "label": "Docs",
+        "value": "https://docs.empe.io/",
+        "description": ""
+      },
+      {
+        "id": "1755248852893",
+        "label": "X",
+        "value": "https://x.com/empe_io",
+        "description": ""
+      },
+      {
+        "id": "1755248879252",
+        "label": "New Item",
+        "value": "Value here",
+        "description": ""
+      },
+      {
+        "id": "1755248902055",
+        "label": "Discord",
+        "value": "https://discord.com/invite/BbCzfuJzkv",
+        "description": ""
+      }
+    ],
+    "isVisible": true,
+    "order": 1
+  }
+]
