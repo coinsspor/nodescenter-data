@@ -14,6 +14,21 @@
           "icon": "📋"
         }
       ]
+    },
+    {
+      "id": "section-1755343407862",
+      "title": "Upgrades",
+      "icon": "💿",
+      "type": "section",
+      "children": [
+        {
+          "id": "page-1755343436057",
+          "title": "Kiichain v3.0.0 to v4.0.0 Upgrade Commands",
+          "icon": "📄",
+          "type": "page",
+          "content": "# Kiichain v3.0.0 to v4.0.0 Upgrade Commands\n\n```javascript\nmkdir -p $HOME/.kiichain/cosmovisor/upgrades/v4.0.0/bin\nrm -rf $HOME/.kiichain\ncd $HOME\ngit clone https://github.com/KiChain/kiichain.git\ncd kiichain\ngit checkout v4.0.0\nmake build\ncp ./build/kiichaind $HOME/.kiichain/cosmovisor/upgrades/v4.0.0/bin/kiichaind\nchmod +x $HOME/.kiichain/cosmovisor/upgrades/v4.0.0/bin/kiichaind\n$HOME/.kiichain/cosmovisor/upgrades/v4.0.0/bin/kiichaind version\n```"
+        }
+      ]
     }
   ],
   "projectInfo": {
@@ -26,7 +41,7 @@
       "secondary": "#8b5cf6"
     }
   },
-  "lastUpdated": "2025-08-13T20:44:54.329Z",
+  "lastUpdated": "2025-08-16T11:27:20.675Z",
   "projectId": "kiichain-testnet",
   "version": "1.0.0"
 }
