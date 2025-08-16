@@ -17,7 +17,7 @@
       "network": "Story Aeneid Testnet"
     },
     {
-      "id": "celestia-testnet",
+      "id": "0G-Chain-testnet",
       "name": "0g Galileo Testnet",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/0glogo.jpg",
       "status": "active",
