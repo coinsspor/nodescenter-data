@@ -42,6 +42,13 @@
           "icon": "⚡",
           "type": "page",
           "content": "# 0gchain v2.0.3 Update\n\n```javascript\nCURRENT_PATH=$(which 0gchaind)\nsystemctl stop 0gchaind geth\nwget https://github.com/0glabs/0gchain-NG/releases/download/v2.0.3/galileo-v2.0.3.tar.gz\ntar -xzf galileo-v2.0.3.tar.gz\ncp galileo-v2.0.3/bin/0gchaind $CURRENT_PATH\nchmod +x $CURRENT_PATH\nsystemctl start geth\nsleep 5\nsystemctl start 0gchaind\njournalctl -u 0gchaind -f\n\n```"
+        },
+        {
+          "id": "page-1758217140356",
+          "title": "0gchain v2.0.4 Update",
+          "icon": "📄",
+          "type": "page",
+          "content": "**0gchain v2.0.4 Update**\n\n```javascript\nCURRENT_PATH=$(which 0gchaind)\nsystemctl stop 0gchaind geth\nwget https://github.com/0glabs/0gchain-NG/releases/download/v2.0.4/galileo-v2.0.4.tar.gz\ntar -xzf galileo-v2.0.4.tar.gz\ncp galileo-v2.0.4/bin/0gchaind $CURRENT_PATH\nchmod +x $CURRENT_PATH\nsystemctl start geth\nsleep 5\nsystemctl start 0gchaind\njournalctl -u 0gchaind -f\n\n```"
         }
       ]
     },
@@ -101,7 +108,7 @@
       "secondary": "#8b5cf6"
     }
   },
-  "lastUpdated": "2025-08-18T00:08:10.825Z",
+  "lastUpdated": "2025-09-18T17:40:38.379Z",
   "projectId": "0G-Chain-testnet",
   "version": "1.0.0"
 }
