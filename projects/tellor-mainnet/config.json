@@ -1,7 +1,7 @@
 {
   "projectSettings": {
     "id": "tellor-mainnet",
-    "name": "Story Protocol",
+    "name": "Tellor",
     "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tellorlogo.png",
     "banner": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tellorbanner.png",
     "description": "Tellor",
@@ -13,7 +13,7 @@
     "chainId": "tellor-1"
   },
   "metadata": {
-    "updatedAt": "2025-09-25T18:37:10.161Z",
+    "updatedAt": "2025-09-25T18:37:58.711Z",
     "version": "1.0.0"
   }
 }
