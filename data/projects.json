@@ -188,6 +188,48 @@
         "author": "Admin"
       },
       "network": "TAC Chain"
+    },
+    {
+      "id": "tellor-mainnet",
+      "name": "tellor--maiinet",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tellorbanner.png",
+      "status": "active",
+      "networkName": "Tellor",
+      "description": "",
+      "chainId": "tellor-1",
+      "hasRPC": true,
+      "hasAPI": true,
+      "hasDocumentation": "complete",
+      "endpoints": {
+        "rpc": "https://tellor-mainnet-rpc.coinsspor.com/",
+        "api": "https://tellor-mainnet-api.coinsspor.com/",
+        "evm": "",
+        "grpc": "",
+        "explorer": "https://coinsspor.com/tellor-mainnet/staking",
+        "websocket": ""
+      },
+      "resources": {
+        "documentation": "",
+        "github": "",
+        "discord": "",
+        "twitter": "",
+        "website": "",
+        "telegram": "",
+        "medium": ""
+      },
+      "technical": {
+        "consensusType": "",
+        "blockTime": "",
+        "finality": "",
+        "validators": 0
+      },
+      "metadata": {
+        "createdAt": "2025-09-25T18:27:52.249Z",
+        "updatedAt": "2025-09-25T18:27:52.250Z",
+        "version": "1.0.0",
+        "author": "Admin"
+      },
+      "network": "Tellor"
     }
   ]
 }
