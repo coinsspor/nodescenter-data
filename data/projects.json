@@ -191,7 +191,7 @@
     },
     {
       "id": "tellor-mainnet",
-      "name": "Story Protocol",
+      "name": "Tellor",
       "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tellorlogo.png",
       "status": "active",
       "networkName": "Tellor",
