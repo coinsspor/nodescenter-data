@@ -191,11 +191,11 @@
     },
     {
       "id": "tellor-mainnet",
-      "name": "tellor-mainnet",
-      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tellorbanner.png",
+      "name": "Story Protocol",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tellorlogo.png",
       "status": "active",
       "networkName": "Tellor",
-      "description": "",
+      "description": "Tellor",
       "chainId": "tellor-1",
       "hasRPC": true,
       "hasAPI": true,
@@ -229,7 +229,7 @@
         "version": "1.0.0",
         "author": "Admin"
       },
-      "network": "Tellor"
+      "network": "Tellor Mainnet"
     }
   ]
 }
