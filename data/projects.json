@@ -191,8 +191,8 @@
     },
     {
       "id": "tellor-mainnet",
-      "name": "tellor--maiinet",
-      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tellorlogo.png",
+      "name": "tellor-mainnet",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/tellorbanner.png",
       "status": "active",
       "networkName": "Tellor",
       "description": "",
