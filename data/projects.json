@@ -144,6 +144,48 @@
         "author": "Admin"
       },
       "network": "Empeiria Testnet"
+    },
+    {
+      "id": "safrochain",
+      "name": "safrochain",
+      "logo": "https://raw.githubusercontent.com/coinsspor/coinsspor/refs/heads/main/safrologo.png",
+      "status": "active",
+      "networkName": "safrochain",
+      "description": "",
+      "chainId": "safro-testnet-1",
+      "hasRPC": true,
+      "hasAPI": true,
+      "hasDocumentation": "complete",
+      "endpoints": {
+        "rpc": "rpc",
+        "api": "api",
+        "evm": "",
+        "grpc": "",
+        "explorer": "explorer",
+        "websocket": ""
+      },
+      "resources": {
+        "documentation": "",
+        "github": "",
+        "discord": "",
+        "twitter": "",
+        "website": "",
+        "telegram": "",
+        "medium": ""
+      },
+      "technical": {
+        "consensusType": "",
+        "blockTime": "",
+        "finality": "",
+        "validators": 0
+      },
+      "metadata": {
+        "createdAt": "2025-10-07T18:51:36.932Z",
+        "updatedAt": "2025-10-07T18:51:36.933Z",
+        "version": "1.0.0",
+        "author": "Admin"
+      },
+      "network": "safrochain"
     }
   ],
   "mainnet": [
