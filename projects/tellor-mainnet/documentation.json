@@ -13,13 +13,6 @@
       "icon": "📄",
       "type": "page",
       "content": "**Tellor Layer Cosmovisor Upgrade (v5.1.2)**\n\n```javascript\nexport UPGRADE_NAME=v5.1.2\nexport DAEMON_HOME=/root/.layer\nexport URL=\"https://github.com/tellor-io/layer/releases/download/v5.1.2/layer_Linux_x86_64.tar.gz\"\nexport UPGRADE_DIR=\"$DAEMON_HOME/cosmovisor/upgrades/$UPGRADE_NAME\"\n\nmkdir -p \"$UPGRADE_DIR/bin\"\ncurl -L \"$URL\" -o /tmp/layer_v5.1.2_linux_x86_64.tar.gz\ntar -xzf /tmp/layer_v5.1.2_linux_x86_64.tar.gz -C \"$UPGRADE_DIR/bin\"\nchmod +x \"$UPGRADE_DIR/bin/layerd\"\nrm -f /tmp/layer_v5.1.2_linux_x86_64.tar.gz\n\n\"$UPGRADE_DIR/bin/layerd\" version\nls -l \"$UPGRADE_DIR/bin\"\n```\n"
-    },
-    {
-      "id": "page-1761931275547",
-      "title": "Tellor Layer Cosmovisor Upgrade (v6.0.0)",
-      "icon": "📄",
-      "type": "page",
-      "content": "export UPGRADE_NAME=\"v6.0.0\"\nexport DAEMON_HOME=\"/root/.layer\"\nexport URL=\"https://github.com/tellor-io/layer/releases/download/v6.0.0/layer_Linux_x86_64.tar.gz\"\nexport UPGRADE_DIR=\"$DAEMON_HOME/cosmovisor/upgrades/$UPGRADE_NAME\"\n\nmkdir -p \"$UPGRADE_DIR/bin\"\ncurl -L \"$URL\" -o /tmp/layer_v6.0.0_linux_x86_64.tar.gz\ntar -xzf /tmp/layer_v6.0.0_linux_x86_64.tar.gz -C \"$UPGRADE_DIR/bin\"\nchmod +x \"$UPGRADE_DIR/bin/layerd\"\nrm -f /tmp/layer_v6.0.0_linux_x86_64.tar.gz\n\n\"$UPGRADE_DIR/bin/layerd\" version\nls -l \"$UPGRADE_DIR/bin\"\n"
     }
   ],
   "projectInfo": {
@@ -32,7 +25,7 @@
       "secondary": "#8b5cf6"
     }
   },
-  "lastUpdated": "2025-10-31T17:22:19.739Z",
+  "lastUpdated": "2025-10-31T17:23:52.621Z",
   "projectId": "tellor-mainnet",
   "version": "1.0.0"
 }
